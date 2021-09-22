@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Courgette&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="assets/style.css"
+  />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Document</title>
+    <!-- commented out dont think we need mike b 9-11- 1105 PM -->
+    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+    <!-- commented out dont think we need mike b 9-11- 1105 PM -->
+  </head>
+  <!--comment-->
+  <body class="has-background-dark">
+    <section class="hero is-small has-background-info-dark header">
+      <div class="hero-body container has-text-centered text-shadow">
+        <p class="title has-text-white box-element2 fontSize">FilmReal Engine</p> 
+      </div>
+        <div class="field has-addons">
+          <p class="control">
+
+          </p>
+        </div>
+    </section>
+    <section class="section">
+      <div class="content columns is-multiline">
+        <div class="column">
+          <h1
+            class="title is-size-1 has-text-white has-text-centered h1-img"
+          >
+            Genre
+          </h1>
+            <div class="select is-rounded btnMargin1">
+                <select id="genreDropdown" class="genre-content">
+                    <option>---Select Genre---</option>
+                    <option>Action</option>
+                    <option>Comedy</option>
+                    <option>Drama</option>
+                    <option>Fantasy</option>
+                    <option>Horror</option>
+                    <option>Mystery</option>
+                    <option>Romance</option>
+                    <option>Thriller</option>
+                </select>
+            </div> 
+            <button class="button is-hovered is-rounded is-padded genre-btn" id="genreBtn">Search</button>
+          </div>
+        <div class="column">
+          <h3
+            class="is-size-1 title has-text-light has-text-centered has-background-info-dark h3-img"
+          >
+            Movie Length
+          </h3>
+
+          <div class="select is-rounded btnMargin2">
+          <select id="lengthdropdown" class="lengthbtn">
+            <b> Select you movie length search using dropdown list </b>
+            <option>---Select Movie Length---</option>
+            <option value="60">More than one hour</option>
+            <option value="120">More than two hours</option>
+            <option value="180">More than three hours</option>
+          </select>
+          </div>
+          <button class="button is-hovered is-rounded is-paddedlength-btn" id="lengthButton" >Search</button>
+        </div>
+
+        <div class="column">
+          <h2
+            class="is-size-1 title has-text-centered has-text-white has-background-info-dark h2-img"
+          >
+            Year
+          </h2>
+          <div class="select is-rounded btnMargin3">
+            <select id="yearSelect">
+              <option>---Select Year---</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+            </select>
+          </div>
+          <button class="button is-hovered is-rounded is-padded year-btn" id="yearButton">Search</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="
+          content columns is-multiline
+          has-text-centered has-text-white bg-color
+        "
+        >
+        <div class="content column is-one-third" id="genreResults"></div>
+        <div class="content column is-one-third" id="results"></div>
+        <div class="content column is-one-third" id="yearResults"></div>
+      </div>
+        <div class="modal is-active is-clipped" id= "modal">
+        <div class="modal-background"></div>
+        <div class="modal-content has-background-info py-5 px-5">
+          <h4 class="title has-text-centered mb-8 has-text-black is-size-2">Contact the Team!</h4>
+            <ul class="has-text-black has-text-centered">
+              <li>Michael Boyles - MikePB6691@aol.com</li>
+              <li>Morgan Moore - morganmmoore0@gmail.com</li>
+              <li>Devon Kuhn - immortalized.606@gmail.com</li>
+              <li>Sheri Foster - fostr.sheri@gmail.com</li>
+            </ul>
+          <button class="modal-close is-large" aria-label="close" id= "modalbtn"></button>
+        </div>
+      </div>  
+    </section>
+    <br></br>
+    <footer class="footer has-background-info-dark footer-img">
+      <div
+        class="
+          content
+          has-text-centered has-text-white">
+          <p class="box-element">
+            Created by: 
+            Devon Kuhn, 
+            Morgan Moore, 
+            Michael Boyles, 
+            Sheri Foster
+          </p>
+      </div>
+    </footer>
+
+    <script src="./assets/javascript.js"></script>
+    <script src="./assets/morganscript.js"></script>
+    <script src="./assets/MichaelJS.js"></script>
+    
+  </body>
+  
+</html>

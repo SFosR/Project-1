@@ -1,0 +1,160 @@
+.header {
+  height: 150px;
+  background-size: 100%;
+  background-position: center;
+  line-height: 100%;
+
+  width: 100%;
+  background-image: url("https://image.shutterstock.com/image-vector/different-film-strip-frame-clapperboard-260nw-1297027963.jpg");
+}
+
+.bg-color {
+  background-color: #011837;
+}
+
+.h1-img, .h2-img, .h3-img {
+    height: 60px;
+    background-size: 100%;
+    background-position: center;
+    line-height: 100%;
+    width: 100%;
+    background-image: url("img.JPG");
+    border-radius: 25px;
+    text-shadow: 2px 2px gray;
+}
+
+.footer-img {
+    height: 150px;
+    background-size: 100%;
+    background-position: center;
+    line-height: 100%;
+    width: 99.9%;
+    background-image: url("https://media.istockphoto.com/vectors/realistic-3d-film-reel-stripe-cinema-on-blue-background-with-place-vector-id1173511424?b=1&k=20&m=1173511424&s=170667a&w=0&h=A0r-fG7winGn1hQAhMXlgq41_Wg7j-Q00Uz1yDt26qQ=");
+}
+
+#genreDropdown, #lengthdropdown, #yearSelect, #genreBtn, #lengthButton, #yearButton {
+    background: #011837;
+    color: white;
+}
+
+.btnMargin1 {
+    margin-left: 70px;
+}
+
+.btnMargin2 {
+    margin-left: 55px;
+}
+.btnMargin3 {
+    margin-left: 70px;
+}
+
+.ul {
+    margin-bottom: 40px;
+    margin-top: 20px;;
+}
+
+.button {
+    margin-left: 40px;
+
+}
+
+#genreBtn {
+    margin-left: 140px;
+}
+
+#lengthButton {
+    margin-left: 95px;
+}
+
+#yearButton {
+    margin-left: 150px;
+}
+
+#genreDropdown {
+    margin-left: 10px;
+}
+
+#lengthdropdown {
+    margin-left: 10px;
+}
+
+#yearSelect {
+    margin-left: 10px;
+}
+
+.box-element {
+    padding:  0 35px;
+    margin-left: 70px;
+    margin-top: 15px;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+    width: 60%;
+}
+
+.box-element2 {
+    margin-left: 700px;
+}
+
+.fontSize {
+    font-size: 70px;
+}
+
+.footer-img {
+    height: 150px;
+    background-size: 100%;
+    background-position: center;
+    line-height: 100%;
+    width: 100%;
+    background-image: url("./footerimg.JPG");
+    display: block;
+  }
+
+strong.bold {
+    color: white;
+}
+
+.title {
+    margin-top: 5px;
+}
+
+.body-color {
+    background-color: white;
+}
+
+body {
+    font-family: 'Courgette', 'Amatic SC', 'Dancing Script';
+  }
+
+.text-shadow {
+    text-shadow: 3px 3px gray;
+}
+
+.h1-img,
+.h2-img,
+.h3-img {
+  height: 60px;
+  background-size: 100%;
+  background-position: center;
+  line-height: 100%;
+  width: 100%;
+  background-image: url("img.JPG");
+}
+
+.footer-img {
+  height: 150px;
+  background-size: 100%;
+  background-position: center;
+  line-height: 100%;
+  width: 100%;
+  background-image: url("./footerimg.JPG");
+  display: block;
+}
+
+strong.bold {
+  color: white;
+}
+
+body {
+  width: 100%;
+}
